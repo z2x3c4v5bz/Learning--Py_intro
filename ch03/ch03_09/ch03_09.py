@@ -20,3 +20,11 @@ if __name__ == '__main__':
     print('ans = 9487, gus = 0587, result = ' + str(tu1))
     print('ans = 9527, gus = 2901, result = ' + str(tu2))
     print('ans = 0521, gus = 1205, result = ' + str(tu3))
+
+
+'''
+ans = 4321, gus = 4321, result = (4, 0)
+ans = 9487, gus = 0587, result = (2, 0)
+ans = 9527, gus = 2901, result = (0, 2)
+ans = 0521, gus = 1205, result = (0, 4)
+'''

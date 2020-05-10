@@ -16,3 +16,18 @@ if __name__ == '__main__':
         b = randint(1, 1000)
         print('Hamming Distance( ' + str(a) + ' , ' + str(b) + ' )= ' + str(hamming(a, b)))
     print('Completed!')
+
+
+'''
+Hamming Distance( 168 , 427 )= 3
+Hamming Distance( 333 , 30 )= 5
+Hamming Distance( 173 , 2 )= 6
+Hamming Distance( 481 , 380 )= 5
+Hamming Distance( 446 , 825 )= 5
+Hamming Distance( 787 , 757 )= 6
+Hamming Distance( 796 , 131 )= 8
+Hamming Distance( 902 , 556 )= 5
+Hamming Distance( 481 , 912 )= 5
+Hamming Distance( 477 , 970 )= 5
+Completed!
+'''

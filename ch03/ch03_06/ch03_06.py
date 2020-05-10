@@ -35,7 +35,12 @@ if __name__ == '__main__':
         if is_1089(i) is None or is_1089(i):
             continue
         else:
-            print('Failed!')
+            print('False!')
             break
     else:
         print('True!')
+
+
+'''
+True!
+'''

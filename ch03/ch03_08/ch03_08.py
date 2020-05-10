@@ -1,5 +1,5 @@
 import math
-import time
+# import time
 
 
 def cardano(a, b, c):
@@ -10,7 +10,7 @@ def cardano(a, b, c):
 
 
 if __name__ == '__main__':
-    Tstart = time.time()
+    # Tstart = time.time()
     lim = 1000
     diff = 0.000000001
     ite = range(1, lim)
@@ -26,7 +26,17 @@ if __name__ == '__main__':
                     print(i, j, k)
                 else:
                     continue
-    Tend = time.time()
-    totaltime = Tend - Tstart
+    # Tend = time.time()
+    # totaltime = Tend - Tstart
     print('Completed!')
-    print('CPU Time = ' + str(totaltime) + 'sec.')
+    # print('CPU Time = ' + str(totaltime) + 'sec.')
+
+
+'''
+Cardano Triplet #1 = 2 1 5
+Cardano Triplet #2 = 5 1 52
+...
+Cardano Triplet #148 = 395 396 117
+Cardano Triplet #149 = 422 423 125
+Completed!
+'''

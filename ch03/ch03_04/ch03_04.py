@@ -14,7 +14,21 @@ def collatz(x):
 
 if __name__ == '__main__':
     x = 1
+    flag = True
     while x <= 10000:
-        print('collatz(' + str(x) + ') = ' + str(collatz(x)))
+        re = collatz(x)
+        if re[-1] != 1:
+            flag = False
+        print('collatz(' + str(x) + ') = ' + str(re))
         x += 1
-    input('Press the Enter key to exit...')
+    print(flag)
+    input('輸入 Enter 鍵結束...')
+
+
+'''
+collatz(1) = [1]
+...
+collatz(10000) = [10000, 5000, 2500, 1250, 625, 1876, 938, 469, 1408, 704, 352, 176, 88, 44, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]
+True
+輸入 Enter 鍵結束...
+'''

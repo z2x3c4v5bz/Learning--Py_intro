@@ -15,3 +15,12 @@ if __name__ == '__main__':
     print('55 => ' + str(change_data(55)))
     print('131 => ' + str(change_data(131)))
     print('255 => ' + str(change_data(255)))
+
+
+'''
+-1 => None
+0 => 0
+55 => 25
+131 => 61
+255 => 100
+'''

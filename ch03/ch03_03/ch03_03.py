@@ -11,3 +11,9 @@ def is_divby3(x):
 if __name__ == '__main__':
     print('21 % 3 = 0? ' + str(is_divby3(str(21))))
     print('32 % 3 = 0? ' + str(is_divby3(str(32))))
+
+
+'''
+21 % 3 = 0? True
+32 % 3 = 0? False
+'''

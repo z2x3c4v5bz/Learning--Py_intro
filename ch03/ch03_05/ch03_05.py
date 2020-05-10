@@ -17,3 +17,13 @@ if __name__ == '__main__':
     for i in range(1, 101):
         if is_prime(i):
             print(i)
+
+
+'''
+The prime number between 1 and 100.
+2
+3
+...
+89
+97
+'''

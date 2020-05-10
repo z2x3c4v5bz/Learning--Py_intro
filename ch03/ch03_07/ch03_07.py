@@ -8,3 +8,8 @@ def stirling(n):
 
 if __name__ == '__main__':
     print('10! ~ ' + str(stirling(10)))
+
+
+'''
+10! ~ 3598695.6187
+'''
