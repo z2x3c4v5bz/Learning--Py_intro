@@ -12,3 +12,8 @@ if __name__ == '__main__':
             scores_new += [x]
     
     print(scores_new)
+
+
+'''
+[40, 99, 51, 65, 90]
+'''

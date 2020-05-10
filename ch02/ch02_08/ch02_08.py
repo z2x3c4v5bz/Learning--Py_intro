@@ -131,3 +131,12 @@ if __name__ == '__main__':
     date_b = process_ipt(ipt_b)
 
     show_days(date_a, date_b)
+
+
+'''
+輸入第一個日期(yyyymmdd): 20131224
+輸入第二個日期(yyyymmdd): 20190304
+第一個日期是: [2013, 12, 24]
+第二個日期是: [2019, 3, 4]
+總共相差 1896 天。
+'''

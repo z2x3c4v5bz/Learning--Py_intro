@@ -17,3 +17,12 @@ if __name__ == '__main__':
     b = int(input('The second number = '))
     c = int(input('The third number = '))
     print('The result is ' + str(max2sqr(a, b, c)))
+
+
+'''
+輸入三個數，將找出最大兩個數的平方和。
+The first number = 25
+The second number = 12
+The third number = 33
+The result is 1714
+'''

@@ -20,3 +20,10 @@ if __name__ == '__main__':
             print(str(li[0][i]) + '+', end = '')
         else:
             print(str(li[0][i]) + '=' + str(li[1]))
+
+
+'''
+Enter a number: 6
+6! = 720
+7+2+0=9
+'''

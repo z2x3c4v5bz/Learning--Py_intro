@@ -14,3 +14,11 @@ if __name__ == '__main__':
     b = int(input('The second number = '))
     print('The result = ', end = '')
     print(str(lcm(a, b)))
+
+
+'''
+Input two numbers to find the LCM.
+The first number = 21
+The second number = 6
+The result = 42
+'''
