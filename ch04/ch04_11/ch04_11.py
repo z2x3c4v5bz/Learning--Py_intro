@@ -5,3 +5,9 @@ def newli2d(rows, cols, s):
 if __name__ == '__main__':
     print(newli2d(2, 3, None))
     print(newli2d(4, 2, 2))
+
+
+'''
+[['None', 'None', 'None'], ['None', 'None', 'None']]
+[['2', '2'], ['2', '2'], ['2', '2'], ['2', '2']]
+'''

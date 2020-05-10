@@ -3,3 +3,8 @@ if __name__ == '__main__':
     
     onlyone = [num for num in arr if arr.count(num) == 1]
     print(onlyone)
+
+
+'''
+[-4, 6, 4, 1, -2, 0, 10]
+'''

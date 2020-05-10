@@ -5,3 +5,8 @@ if __name__ == '__main__':
     b = fractions.Fraction(1, 4)
 
     print('{0} / {1} = {2}'.format(a, b, a / b))
+
+
+'''
+1/6 / 1/4 = 2/3
+'''

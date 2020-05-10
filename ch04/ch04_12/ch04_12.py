@@ -8,3 +8,8 @@ if __name__ == '__main__':
     li = [4, 3, 6, 1]
     x = 3
     print(myfunc(li, x))
+
+
+'''
+154
+'''

@@ -4,3 +4,10 @@ if __name__ == '__main__':
     print(s[::-1])
     print(s[-1::-1])
     print(s[-1:0:-1]) # failed
+
+
+'''
+edcba
+edcba
+edcb
+'''

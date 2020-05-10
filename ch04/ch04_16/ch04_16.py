@@ -12,3 +12,22 @@ if __name__ == '__main__':
     for w in s:
         print('"' + w + '" a palindrome?')
         print(str(jpalin(w)) + '\n')
+
+
+'''
+"race car" a palindrome?
+True
+
+"Amor, Roma" a palindrome?
+True
+
+"No 'x' in Nixon" a palindrome?
+True
+
+"A man, a plan, a canal, Panama!" a palindrome?
+True
+
+"My mom." a palindrome?
+False
+
+'''

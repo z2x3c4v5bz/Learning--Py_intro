@@ -12,3 +12,9 @@ if __name__ == '__main__':
     li = [('Jhon', 33), ('Elsa', 63), ('Amy', 60), ('Bill', 73), ('Mary', 59), ('Zachary', 93)]
     print(under60_A(li))
     print(under60_B(li))
+
+
+'''
+[('Jhon', 33), ('Mary', 59)]
+[('Jhon', 33), ('Mary', 59)]
+'''

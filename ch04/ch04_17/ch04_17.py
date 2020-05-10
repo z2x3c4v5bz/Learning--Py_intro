@@ -14,3 +14,19 @@ if __name__ == '__main__':
     for s in li:
         print('"' + str(s) + '" a pangram?')
         print(str(ispangram(s)) + '\n')
+
+
+'''
+"The quick brown fox jumps over the lazy dog." a pangram?
+True
+
+"Does the quick brown fox jump over the lazy dog?" a pangram?
+True
+
+"Do big jackdaws love my sphinx of quartz?" a pangram?
+True
+
+"Yeah, I am your long-lost brother." a pangram?
+False
+
+'''

@@ -34,3 +34,18 @@ if __name__ == '__main__':
     print('s3_new = ' + mystr(s3) + '\n')
     print('s4 = ' + s4)
     print('s4_new = ' + mystr(s4) + '\n')
+
+
+'''
+s1 = I love animals, e.x., dogs, birds, and cats.
+s1_new = I love animals, e.g., dogs, birds, and cats.
+
+s2 = Please take a look at Ex. 1
+s2_new = Please take a look at Ex. 1
+
+s3 = I love animals, eg., dogs, birds, and cats.
+s3_new = I love animals, e.g., dogs, birds, and cats.
+
+s4 = Please take a look at Ex.
+s4_new = Please take a look at e.g.
+'''
