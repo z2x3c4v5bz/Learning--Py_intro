@@ -23,7 +23,9 @@ if __name__ == '__main__':
 
 
 '''
+
 Enter a number: 6
 6! = 720
 7+2+0=9
+
 '''

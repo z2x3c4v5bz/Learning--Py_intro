@@ -33,10 +33,12 @@ if __name__ == '__main__':
 
 
 '''
+
 Cardano Triplet #1 = 2 1 5
 Cardano Triplet #2 = 5 1 52
 ...
 Cardano Triplet #148 = 395 396 117
 Cardano Triplet #149 = 422 423 125
 Completed!
+
 '''

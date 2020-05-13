@@ -36,6 +36,7 @@ if __name__ == '__main__':
 
 
 '''
+
 Input ('aa'): Invalid input!
 Input ('a', 'cc'): Invalid input!
 Input ('1'): Invalid input!
@@ -43,4 +44,5 @@ Input ('a', '1'): Invalid input!
 Input ('f'): ['a', 'b', 'c', 'd', 'e']
 Input ('i', 'l'): ['i', 'j', 'k']
 Input ('a', 'f', 2): ['a', 'c', 'e']
+
 '''

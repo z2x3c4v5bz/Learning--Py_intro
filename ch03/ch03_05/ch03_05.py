@@ -20,10 +20,12 @@ if __name__ == '__main__':
 
 
 '''
+
 The prime number between 1 and 100.
 2
 3
 ...
 89
 97
+
 '''

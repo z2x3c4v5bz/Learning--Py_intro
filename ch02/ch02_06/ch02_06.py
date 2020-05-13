@@ -17,8 +17,10 @@ if __name__ == '__main__':
 
 
 '''
+
 Input two numbers to find the LCM.
 The first number = 21
 The second number = 6
 The result = 42
+
 '''

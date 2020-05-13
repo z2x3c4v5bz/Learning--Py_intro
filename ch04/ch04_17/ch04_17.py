@@ -17,6 +17,7 @@ if __name__ == '__main__':
 
 
 '''
+
 "The quick brown fox jumps over the lazy dog." a pangram?
 True
 

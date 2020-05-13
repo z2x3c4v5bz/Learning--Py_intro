@@ -20,9 +20,11 @@ if __name__ == '__main__':
 
 
 '''
+
 輸入三個數，將找出最大兩個數的平方和。
 The first number = 25
 The second number = 12
 The third number = 33
 The result is 1714
+
 '''

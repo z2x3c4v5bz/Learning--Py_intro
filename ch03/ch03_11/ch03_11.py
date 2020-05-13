@@ -19,6 +19,7 @@ if __name__ == '__main__':
 
 
 '''
+
 Hamming Distance( 168 , 427 )= 3
 Hamming Distance( 333 , 30 )= 5
 Hamming Distance( 173 , 2 )= 6
@@ -30,4 +31,5 @@ Hamming Distance( 902 , 556 )= 5
 Hamming Distance( 481 , 912 )= 5
 Hamming Distance( 477 , 970 )= 5
 Completed!
+
 '''

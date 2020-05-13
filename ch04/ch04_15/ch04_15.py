@@ -37,6 +37,7 @@ if __name__ == '__main__':
 
 
 '''
+
 s1 = I love animals, e.x., dogs, birds, and cats.
 s1_new = I love animals, e.g., dogs, birds, and cats.
 
@@ -48,4 +49,5 @@ s3_new = I love animals, e.g., dogs, birds, and cats.
 
 s4 = Please take a look at Ex.
 s4_new = Please take a look at e.g.
+
 '''
