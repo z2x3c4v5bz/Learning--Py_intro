@@ -1,31 +1,49 @@
+# ch03-04
+
+
 def collatz(x):
+
     numarr = []
     numarr += [x]
+
     while x:
+
         if x == 1:
             break
+
         if x % 2:
+
             x = 3 * x + 1
+
         else:
+
             x //= 2
+
         numarr += [x]
+
     return numarr
 
 
 if __name__ == '__main__':
+
     x = 1
     flag = True
+
     while x <= 10000:
+
         re = collatz(x)
+
         if re[-1] != 1:
             flag = False
-        print('collatz(' + str(x) + ') = ' + str(re))
+        
+        print('collatz({:5d}) = {}\n'.format(x, re))
         x += 1
+    
     print(flag)
     input('輸入 Enter 鍵結束...')
 
 
-'''
+''' Output
 
 collatz(1) = [1]
 ...

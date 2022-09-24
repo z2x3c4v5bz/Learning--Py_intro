@@ -1,68 +1,81 @@
+# ch03-10
 from random import randint
 
 
 if __name__ == '__main__':
+
     upper = 100
     lower = 1
-    ans = randint(1, upper)
+    ans = randint(lower, upper)
     cont = 0
+
     print('_____________________終極密碼_____________________')
-    print('從0 ~ 100中猜一個數字，看你要猜幾次才能猜中。')
+    print('從 0～100 中猜一個數字，看你要猜幾次才能猜中。\n')
+
     while True:
+
         cont += 1
-        print('_____________________Round ' + str(cont) + '_____________________')
-        print('Scope: ' + str(upper) + ' ~ ' + str(lower))
+
+        print('_____________________Round {}_____________________'.format(cont))
+        print('Scope: {}～{}'.format(lower, upper))
         user_k = int(input('Guess a number: '))
-        if user_k == 840521:
-            print('The answer is ' + str(ans))
+
+        if user_k == 999999:
+            print('The answer is {}'.format(ans))
+
         while user_k <= lower or user_k >= upper:
-            user_k = int(input('Guess a number between ' + str(lower) + ' and ' + str(upper) + ': '))
+            user_k = int(input('Guess a number between {} and {}: '.format(lower, upper)))
+
         print('')
+
         if user_k == ans:
+
             print('_________________Congratulations!_________________')
-            print('總共試了 ' + str(cont) + ' 次。')
+            print('總共試了 {} 次。'.format(cont))
             break
+
         elif ans < user_k:
+
             upper = user_k
+
         else:
+
             lower = user_k
+
     input('Game Over~')
 
 
-'''
+''' Output
 
 _____________________終極密碼_____________________
-從0 ~ 100中猜一個數字，看你要猜幾次才能猜中。
+從 0～100 中猜一個數字，看你要猜幾次才能猜中。
+
 _____________________Round 1_____________________
-Scope: 100 ~ 1
+Scope: 1～100
 Guess a number: 50
 
 _____________________Round 2_____________________
-Scope: 100 ~ 50
+Scope: 50～100
 Guess a number: 75
 
 _____________________Round 3_____________________
-Scope: 100 ~ 75
-Guess a number: 90
+Scope: 50～75
+Guess a number: 62
 
 _____________________Round 4_____________________
-Scope: 90 ~ 75
-Guess a number: 80
+Scope: 50～62
+Guess a number: 56
 
 _____________________Round 5_____________________
-Scope: 90 ~ 80
-Guess a number: 85
+Scope: 50～56
+Guess a number: 53
 
 _____________________Round 6_____________________
-Scope: 90 ~ 85
-Guess a number: 88
-
-_____________________Round 7_____________________
-Scope: 90 ~ 88
-Guess a number: 89
+Scope: 50～53
+Guess a number: 52
 
 _________________Congratulations!_________________
-總共試了 7 次。
+總共試了 6 次。
 Game Over~
 
 '''
