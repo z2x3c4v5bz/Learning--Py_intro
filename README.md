@@ -22,7 +22,7 @@
 
 ![thumbnail](img/thumbnail.png)
 
-※ 習題開發環境為 Microsoft Windows 系列 x64 作業系統與 Macbook macOS Monterey，並採用軟體 VS Code 為文字編輯器，Python 3.x。
+※ 習題開發環境為 Python 3.x，作業系統使用 Microsoft Windows 7/10/11 x64 與 Apple macOS Monterey，並選擇軟體 VS Code 為文字編輯器。
 
 ※ 原諒我題目內不附圖示。
 
