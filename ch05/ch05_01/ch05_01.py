@@ -1,4 +1,8 @@
+# ch05-01
+
+
 if __name__ == '__main__':
+
     d = {1: "January",
          2: "February",
          3: "March",
@@ -15,7 +19,7 @@ if __name__ == '__main__':
     print("d[9] = {0}".format(d[9]))
 
 
-'''
+''' Output
 
 d[9] = September
 

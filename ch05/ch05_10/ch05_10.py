@@ -1,32 +1,46 @@
+# ch05-10
+
+
 def getprimes(n):
+
     if (not str(n).isdigit()) or int(n) < 2:
+
         return set()
+
     elif int(n) == 2:
+
         return {2}
     
     n = int(n)
-
     primes = {2}
 
     for i in range(3, n):
+
         flag = False
+
         for p in primes:
+
             if i % p == 0:
+
                 flag = True
+
                 break
+
         if not flag:
             primes.add(i)
     
     return primes
 
+
 if __name__ == '__main__':
+
     test = [-43, 2, 3, 73, 1000]
 
     for t in test:
         print("getprimes({0}) = {1}".format(str(t), getprimes(t)))
 
 
-'''
+''' Output
 
 getprimes(-43) = set()
 getprimes(2) = {2}
