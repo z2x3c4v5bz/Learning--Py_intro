@@ -12,7 +12,7 @@
 
 **Auther:** 葉難
 
-**Publisher:** 碩博文化股份有限公司
+**Publisher:** 博碩文化股份有限公司
 
 **Introduction:**
 
